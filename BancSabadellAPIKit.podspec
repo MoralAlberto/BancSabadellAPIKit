@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BancSabadellAPIKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BancSabadellAPIKit.'
+  s.summary          = 'A delightbul networkin API to manage BancSabadell requests'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The principal concepts to interact with the BancSabadell API. It uses OAUTH 2.0 to get a valid token, and two simple API to get the cards' and accounts' user.
+To prove the demo code, you need to provide a valid client identifier and client secret. Also, you must have a test user to log in.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/BancSabadellAPIKit'
+  s.homepage         = 'https://github.com/MoralAlberto/BancSabadellAPIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alberto Moral' => 'alberto.moral.g@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/BancSabadellAPIKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/MoralAlberto/BancSabadellAPIKit.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/MoralAlberto'
 
   s.ios.deployment_target = '8.0'
 
@@ -38,5 +39,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'OAuthSwift'
+    s.dependency 'ObjectMapper'
 end

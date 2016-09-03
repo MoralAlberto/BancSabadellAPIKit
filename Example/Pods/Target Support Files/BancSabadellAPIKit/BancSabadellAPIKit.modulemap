@@ -1,0 +1,6 @@
+framework module BancSabadellAPIKit {
+  umbrella header "BancSabadellAPIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

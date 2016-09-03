@@ -1,0 +1,22 @@
+{
+  "name": "BancSabadellAPIKit",
+  "version": "0.1.0",
+  "summary": "A short description of BancSabadellAPIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BancSabadellAPIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alberto Moral": "alberto.moral.g@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BancSabadellAPIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BancSabadellAPIKit/Classes/**/*"
+}

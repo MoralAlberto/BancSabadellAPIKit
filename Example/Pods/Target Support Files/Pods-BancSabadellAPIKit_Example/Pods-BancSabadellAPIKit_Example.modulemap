@@ -1,0 +1,6 @@
+framework module Pods_BancSabadellAPIKit_Example {
+  umbrella header "Pods-BancSabadellAPIKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
