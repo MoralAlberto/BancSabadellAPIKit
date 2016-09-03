@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-The principal concepts to interact with the BancSabadell API. It uses OAUTH 2.0 to get a valid token, and two simple API to get the cards' and accounts' user.
+The main concepts to interact with the BancSabadell API. It uses OAUTH 2.0 to get a valid token, and two simple API to get the cards' and accounts' user.
 To prove the demo code, you need to provide a valid client identifier and client secret. Also, you must have a test user to log in.
                        DESC
 
@@ -33,12 +33,13 @@ To prove the demo code, you need to provide a valid client identifier and client
 
   s.source_files = 'BancSabadellAPIKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BancSabadellAPIKit' => ['BancSabadellAPIKit/Assets/*.png']
-  # }
+# s.resource_bundles = {
+#  'BancSabadellAPIKit' => ['BancSabadellAPIKit/Classes/**/APIConstants.plist']
+#}
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'OAuthSwift'
-    s.dependency 'ObjectMapper'
+    s.dependency 'ObjectMapper' 
 end

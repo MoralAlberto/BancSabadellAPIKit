@@ -1,6 +1,10 @@
 PODS:
-  - BancSabadellAPIKit (0.1.0)
+  - BancSabadellAPIKit (0.1.0):
+    - OAuthSwift
+    - ObjectMapper
   - Nimble (3.2.0)
+  - OAuthSwift (0.6.0)
+  - ObjectMapper (1.4.0)
   - Quick (0.9.3)
 
 DEPENDENCIES:
@@ -13,8 +17,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BancSabadellAPIKit: 74019794c4857513315cba72fc60c87930b883c0
+  BancSabadellAPIKit: 6d59b0e5be98f3255580943f946cae8ce639620d
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  OAuthSwift: 8895267fbd6437a52aea26541572a617c7a8c7c1
+  ObjectMapper: a07ad0462c5adf014adc0f89ef04c29b626e855e
   Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
 
 PODFILE CHECKSUM: df7115d95900ac7e13147ef22b5aeb9eb7a9896d

@@ -8,19 +8,18 @@
 
 import Foundation
 
-class APIConstantsManager {
+public class APIConstantsManager {
     
     static var ApiConstants = "APIConstants"
     
-    static func setupPlist() -> NSDictionary {
-        let path = NSBundle.mainBundle().pathForResource(ApiConstants, ofType: "plist")
+    public static func setupPlist() -> NSDictionary {
+        let path = NSBundle.mainBundle().pathForResource("/Frameworks/BancSabadellAPIKit.framework/APIConstants", ofType: "plist")
         let dict = NSDictionary(contentsOfFile: path!)
-        
         return dict!
     }
 }
 
-class APIConstants {
+public class APIConstants {
     
     static var ApiEndPoint = "APIEndPoint"
     static var ApiClientId = "APIClientID"
@@ -37,7 +36,7 @@ class APIConstants {
     
     static var valueDict: NSDictionary = APIConstantsManager.setupPlist() as NSDictionary
     
-    static func APIEndPoint() -> String? {
+    public static func APIEndPoint() -> String? {
         return valueDict[ApiEndPoint] as? String
     }
     
@@ -49,7 +48,7 @@ class APIConstants {
         return valueDict[ApiClientSecret] as? String
     }
     
-    static func APIPathAccounts() -> String? {
+    public static func APIPathAccounts() -> String? {
         return valueDict.valueForKeyPath(ApiPathAccounts) as? String
     }
     

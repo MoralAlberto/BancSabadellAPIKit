@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import BancSabadellAPIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        getAccounts()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func getAccounts() {
+        let accountResource: Resource<AccountsModel> = Resource(pathComponent: "\(APIConstants.APIEndPoint()!+APIConstants.APIPathAccounts()!)")
+        
+        accountResource.loadAsynchronous(AccountsModel.self) { x in
+            print("Value \(x)")
+        }
     }
-
 }
 

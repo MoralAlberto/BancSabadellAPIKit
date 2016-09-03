@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39DC98841D7B4E8C0038C940 /* BancSabadellAPIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DC98831D7B4E8C0038C940 /* BancSabadellAPIKit.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		01BA4C5F407C121793BC436A /* Pods-BancSabadellAPIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BancSabadellAPIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BancSabadellAPIKit_Example/Pods-BancSabadellAPIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		06AEB3DE72AAA749FBA5557B /* Pods-BancSabadellAPIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BancSabadellAPIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BancSabadellAPIKit_Tests/Pods-BancSabadellAPIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		39DC98831D7B4E8C0038C940 /* BancSabadellAPIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BancSabadellAPIKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/BancSabadellAPIKit-cwotcnxgjjduukbrhxkdqiplmhva/Build/Products/Debug-iphonesimulator/BancSabadellAPIKit/BancSabadellAPIKit.framework"; sourceTree = "<group>"; };
 		475798FA45AC8BF1FC917729 /* Pods_BancSabadellAPIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancSabadellAPIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEF9645C93FE74E854BA0F3 /* Pods_BancSabadellAPIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancSabadellAPIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* BancSabadellAPIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BancSabadellAPIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39DC98841D7B4E8C0038C940 /* BancSabadellAPIKit.framework in Frameworks */,
 				D07F7C0E6891219D72E227D9 /* Pods_BancSabadellAPIKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		1DD20ACABDBA14EE316DC2A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				39DC98831D7B4E8C0038C940 /* BancSabadellAPIKit.framework */,
 				5BEF9645C93FE74E854BA0F3 /* Pods_BancSabadellAPIKit_Example.framework */,
 				475798FA45AC8BF1FC917729 /* Pods_BancSabadellAPIKit_Tests.framework */,
 			);
