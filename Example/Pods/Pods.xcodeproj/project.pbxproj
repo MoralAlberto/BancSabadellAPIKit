@@ -722,9 +722,9 @@
 			children = (
 				E97459034875ADD466F3D384DD51EAC5 /* Resource.swift */,
 				31B1E5813F91F4D70D041379831BF12E /* WebService.swift */,
-				2CA6579D27AAAF54773C581905B166E0 /* Helpers */,
 				FAE34F3A68050B7AFAB866EE36811553 /* Models */,
 				0917EAF28EE8F3E5AB909355691BF5D9 /* Utils */,
+				2CA6579D27AAAF54773C581905B166E0 /* Helpers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

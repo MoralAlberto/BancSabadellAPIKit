@@ -60,7 +60,7 @@ class WebService {
         let state: String = generateStateWithLength(16) as String
         
         oauthswift.authorizeWithCallbackURL(
-            NSURL(string: "BancApp://oauth-callback")!,
+            NSURL(string: "bancSabadellAPIKitExample://oauth-callback")!,
             scope: "read+auth", state: state,
             success: { credential, response, parameters in
                 NSUserDefaults.standardUserDefaults().setObject(credential.oauth_token, forKey: "token")

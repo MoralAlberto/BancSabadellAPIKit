@@ -10,6 +10,8 @@ import UIKit
 import BancSabadellAPIKit
 
 class ViewController: UIViewController {
+    
+    var accountResource: Resource<AccountsModel> = Resource(pathComponent: "\(APIConstants.APIEndPoint()!+APIConstants.APIPathAccounts()!)")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,9 +19,11 @@ class ViewController: UIViewController {
         getAccounts()
     }
     
+//    override func viewWillAppear(animated: Bool) {
+//        getAccounts()
+//    }
+    
     func getAccounts() {
-        let accountResource: Resource<AccountsModel> = Resource(pathComponent: "\(APIConstants.APIEndPoint()!+APIConstants.APIPathAccounts()!)")
-        
         accountResource.loadAsynchronous(AccountsModel.self) { x in
             print("Value \(x)")
         }
