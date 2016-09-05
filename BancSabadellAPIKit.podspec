@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BancSabadellAPIKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A delightbul networkin API to manage BancSabadell requests'
 
 # This description is used to generate tags and improve search results.
@@ -33,11 +33,6 @@ To prove the demo code, you need to provide a valid client identifier and client
 
   s.source_files = 'BancSabadellAPIKit/Classes/**/*'
   
-# s.resource_bundles = {
-#  'BancSabadellAPIKit' => ['BancSabadellAPIKit/Classes/**/APIConstants.plist']
-#}
-
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'OAuthSwift'
