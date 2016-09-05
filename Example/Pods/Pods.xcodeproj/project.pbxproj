@@ -30,6 +30,8 @@
 		320F71B4CF1BED1C33F7728983D9E36A /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DAA84CD13DFD39D2BA2E683BEAC04C /* Closures.swift */; };
 		37EFD7BBB83EFEB4F2BCDDC7D53C18F6 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED97E2269150FA05480A19F9CF40316 /* DictionaryTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		38F5CE4B4C59A81734A93E32D35B696E /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856D8E81706E552C5DF9FCDAC9408B6 /* FailureMessage.swift */; };
+		392F03EE1D7E020500544982 /* CreditCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392F03ED1D7E020500544982 /* CreditCardModel.swift */; };
+		392F03F01D7E029F00544982 /* CreditCardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392F03EF1D7E029F00544982 /* CreditCardsModel.swift */; };
 		3A8C23139895F04947610C638F51B557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C6FF26C2DF983E8BC1EC2317C17D9A /* Foundation.framework */; };
 		3D1BB98DEA422D8F173613EC715488B9 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9497E68A283EC6CD1DE618179B661CC5 /* PostNotification.swift */; };
 		4101F52D4F706501866599DBB9EBCDD6 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CF033AB84365CD8D8E9293B4EAAA80 /* Operators.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -242,6 +244,8 @@
 		33506B137754823D4D6207384FDDCCD3 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = OAuthSwift/Utils.swift; sourceTree = "<group>"; };
 		33B15CD73EE923955DE0873BFF822016 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		39111B7B8A6BD809B2F83188AC8C0C0F /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
+		392F03ED1D7E020500544982 /* CreditCardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardModel.swift; sourceTree = "<group>"; };
+		392F03EF1D7E029F00544982 /* CreditCardsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardsModel.swift; sourceTree = "<group>"; };
 		3C3BE7B0188D58E93E8AB4DB199B7101 /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
 		3FFD91A415CE5A94AA0AE2C82369A941 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		416DD16A30D6DE11268A8D80CE0DBDD1 /* OAuthSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthSwift-prefix.pch"; sourceTree = "<group>"; };
@@ -722,9 +726,9 @@
 			children = (
 				E97459034875ADD466F3D384DD51EAC5 /* Resource.swift */,
 				31B1E5813F91F4D70D041379831BF12E /* WebService.swift */,
+				2CA6579D27AAAF54773C581905B166E0 /* Helpers */,
 				FAE34F3A68050B7AFAB866EE36811553 /* Models */,
 				0917EAF28EE8F3E5AB909355691BF5D9 /* Utils */,
-				2CA6579D27AAAF54773C581905B166E0 /* Helpers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -835,6 +839,8 @@
 			children = (
 				8CA40484443B0FFFBB9648E8C4BD1F27 /* AccountModel.swift */,
 				B6841EEDF10B6160D02A4614773A05DD /* AccountsModel.swift */,
+				392F03ED1D7E020500544982 /* CreditCardModel.swift */,
+				392F03EF1D7E029F00544982 /* CreditCardsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1203,7 +1209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392F03EE1D7E020500544982 /* CreditCardModel.swift in Sources */,
 				4205FABB0B6A4FECB1877DCE46B4CF97 /* AccountModel.swift in Sources */,
+				392F03F01D7E029F00544982 /* CreditCardsModel.swift in Sources */,
 				DF7F285FEB03028E85717D14783584DC /* AccountsModel.swift in Sources */,
 				08DBF734B0D29AC5DAAABE6B72208E47 /* APIConstants.plist in Sources */,
 				56EB7240A39417E88647B3267C65DDC2 /* APIConstantsManager.swift in Sources */,

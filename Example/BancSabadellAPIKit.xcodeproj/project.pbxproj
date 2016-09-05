@@ -34,7 +34,7 @@
 		39DC98831D7B4E8C0038C940 /* BancSabadellAPIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BancSabadellAPIKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/BancSabadellAPIKit-cwotcnxgjjduukbrhxkdqiplmhva/Build/Products/Debug-iphonesimulator/BancSabadellAPIKit/BancSabadellAPIKit.framework"; sourceTree = "<group>"; };
 		475798FA45AC8BF1FC917729 /* Pods_BancSabadellAPIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancSabadellAPIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEF9645C93FE74E854BA0F3 /* Pods_BancSabadellAPIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BancSabadellAPIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* BancSabadellAPIKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BancSabadellAPIKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* BancSabadellAPIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BancSabadellAPIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* BancSabadellAPIKitExample.app */,
+				607FACD01AFB9204008FA782 /* BancSabadellAPIKit_Example.app */,
 				607FACE51AFB9204008FA782 /* BancSabadellAPIKit_Tests.xctest */,
 			);
 			name = Products;
@@ -166,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* BancSabadellAPIKitExample */ = {
+		607FACCF1AFB9204008FA782 /* BancSabadellAPIKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BancSabadellAPIKitExample" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BancSabadellAPIKit_Example" */;
 			buildPhases = (
 				3AFAABF1D0BE7A21C1DD973D /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -181,9 +181,9 @@
 			);
 			dependencies = (
 			);
-			name = BancSabadellAPIKitExample;
+			name = BancSabadellAPIKit_Example;
 			productName = BancSabadellAPIKit;
-			productReference = 607FACD01AFB9204008FA782 /* BancSabadellAPIKitExample.app */;
+			productReference = 607FACD01AFB9204008FA782 /* BancSabadellAPIKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* BancSabadellAPIKit_Tests */ = {
@@ -239,7 +239,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* BancSabadellAPIKitExample */,
+				607FACCF1AFB9204008FA782 /* BancSabadellAPIKit_Example */,
 				607FACE41AFB9204008FA782 /* BancSabadellAPIKit_Tests */,
 			);
 		};
@@ -381,7 +381,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* BancSabadellAPIKitExample */;
+			target = 607FACCF1AFB9204008FA782 /* BancSabadellAPIKit_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,6 +408,7 @@
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BA4C5F407C121793BC436A /* Pods-BancSabadellAPIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -453,6 +454,7 @@
 		};
 		607FACEE1AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B49E9D1B7FD94A5995225E /* Pods-BancSabadellAPIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -560,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BancSabadellAPIKitExample" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BancSabadellAPIKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
