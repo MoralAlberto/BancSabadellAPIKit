@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-The main concepts to interact with the BancSabadell API. It uses OAUTH 2.0 to get a valid token, and two simple API to get the cards' and accounts' user.
+The main concepts to interact with the BancSabadell API. It uses OAUTH 2.0 to get a valid token, and two simple API to get the user's account and credit cards.
 To prove the demo code, you need to provide a valid client identifier and client secret. Also, you must have a test user to log in.
                        DESC
 

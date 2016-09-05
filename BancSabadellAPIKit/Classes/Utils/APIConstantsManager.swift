@@ -27,7 +27,7 @@ public class APIConstants {
     
     static var ApiPathAccounts = "APIPaths.APIPathAccounts"
     static var ApiPathProducts = "APIPaths.APIPathProducts"
-    static var ApiPathTargets = "APIPaths.APIPathTargets"
+    static var ApiPathCards = "APIPaths.APIPathCards"
     
     static var ApiPathOAuthRefreshToken = "APIOAuth.APIPathRefreshToken"
     static var ApiPathOAuthURL = "APIOAuth.APIAuthorizeURL"
@@ -60,8 +60,8 @@ public class APIConstants {
         return valueDict.valueForKeyPath(ApiPathOAuthRefreshToken) as? String
     }
     
-    static func APIPathTargets() -> String? {
-        return valueDict.valueForKeyPath(ApiPathTargets) as? String
+    public static func APIPathCards() -> String? {
+        return valueDict.valueForKeyPath(ApiPathCards) as? String
     }
     
     static func APIPathOAuthURLAccessToken() -> String? {

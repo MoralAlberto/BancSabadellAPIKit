@@ -39,6 +39,7 @@ class WebService {
             headers: headerResource(token),
             success: { (data, response) in
                 guard let json = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions()) else { return }
+                print("JSON \(json)")
                 let result = Mapper<A>().map(json)
                 print(json)
                 callback(result!)

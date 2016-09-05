@@ -11,6 +11,20 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Intro
+The main concepts to interact with the BancSabadell API. It uses OAUTH 2.0 to get a valid token, and two simple API to get the user's account and credit cards.
+To prove the demo code, you need to provide a valid client identifier and client secret. Also, you must have a test user to log in.
+
+Example:
+
+```swift
+func getAccounts() {
+    accountResource.loadAsynchronous(AccountsModel.self) { accounts in
+        print("Value \(accounts)")
+    }
+}
+```
+
 ## Installation
 
 BancSabadellAPIKit is available through [CocoaPods](http://cocoapods.org). To install

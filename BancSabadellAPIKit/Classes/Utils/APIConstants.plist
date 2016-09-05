@@ -23,7 +23,7 @@
 		<string>cuentasvista</string>
 		<key>APIPathProducts</key>
 		<string>productos</string>
-		<key>APIPathTargets</key>
+		<key>APIPathCards</key>
 		<string>tarjetas</string>
 	</dict>
 </dict>
