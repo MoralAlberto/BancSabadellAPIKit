@@ -1,6 +1,6 @@
 # BancSabadellAPIKit
 
-[![CI Status](http://img.shields.io/travis/Alberto Moral/BancSabadellAPIKit.svg?style=flat)](https://travis-ci.org/Alberto Moral/BancSabadellAPIKit)
+[![CI Status](http://img.shields.io/travis/Alberto Moral/BancSabadellAPIKit.svg?style=flat)](https://travis-ci.org/MoralAlberto/BancSabadellAPIKit)
 [![Version](https://img.shields.io/cocoapods/v/BancSabadellAPIKit.svg?style=flat)](http://cocoapods.org/pods/BancSabadellAPIKit)
 [![License](https://img.shields.io/cocoapods/l/BancSabadellAPIKit.svg?style=flat)](http://cocoapods.org/pods/BancSabadellAPIKit)
 [![Platform](https://img.shields.io/cocoapods/p/BancSabadellAPIKit.svg?style=flat)](http://cocoapods.org/pods/BancSabadellAPIKit)
@@ -18,6 +18,8 @@ To prove the demo code, you need to provide a valid client identifier and client
 Example:
 
 ```swift
+var accountResource: Resource<AccountsModel> = Resource(pathComponent: "\(APIConstants.APIEndPoint()!+APIConstants.APIPathAccounts()!)")
+
 func getAccounts() {
     accountResource.loadAsynchronous(AccountsModel.self) { accounts in
         print("Value \(accounts)")

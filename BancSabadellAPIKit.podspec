@@ -27,14 +27,12 @@ To prove the demo code, you need to provide a valid client identifier and client
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alberto Moral' => 'alberto.moral.g@gmail.com' }
   s.source           = { :git => 'https://github.com/MoralAlberto/BancSabadellAPIKit.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/MoralAlberto'
+  s.social_media_url = 'https://twitter.com/AlbertMoral'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BancSabadellAPIKit/Classes/**/*'
-  
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'OAuthSwift'
-    s.dependency 'ObjectMapper' 
+
+  s.dependency 'OAuthSwift'
+  s.dependency 'ObjectMapper' 
 end
